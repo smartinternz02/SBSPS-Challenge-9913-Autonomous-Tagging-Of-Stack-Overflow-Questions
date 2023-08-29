@@ -1,0 +1,4 @@
+.venv
+auto_tagging/__pycache__
+auto_tagging/auto_tagging/__pycache__
+manifest.yml

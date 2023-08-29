@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}" class="rel">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Tagging System</title>
+</head>
+<body>
+   
+    <div class="wrapper">
+        
+        
+        <form action="page2.html">
+            
+            <h1>Tagging System</h1>
+            
+            <img src="{%static 'images/logo.png'%}" alt="Paris" class="center">
+            
+           
+            <div class="input-box">
+                <label for="Question"style="color: hsl(217, 36%, 46%)"><b>QUESTION</b></label>
+                <textarea class="quesarea" readonly>{{res.question}}</textarea>         
+                     
+                
+            </div><br>
+            <div class="input-box0">
+                <label for="Title"style="color: hsl(217, 36%, 46%)"><b> GENERATED TAGS</b></label>
+                <textarea id = "tags"class="tagarea"readonly>{{res.tags}}</textarea>
+                
+            </div>
+            <!-- <button onclick="myFunction()" class="btn btn1" >Copy Tags</button>
+            <script>
+                function myFunction() {
+                    // Get the text field
+                    var copyText = document.getElementById("tags");
+                  
+                    // Select the text field
+                    copyText.select();
+                    copyText.setSelectionRange(0, 99999); // For mobile devices
+                  
+                     // Copy the text inside the text field
+                    navigator.clipboard.writeText(copyText.value);
+                  
+                    // Alert the copied text
+                    //alert("Copied the text: " + copyText.value);
+                  }
+            </script> -->
+            
+        </form>
+    </div>
+</body>
+</html>
