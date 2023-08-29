@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}" class="rel">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Tagging System</title>
+</head>
+<body>
+  
+    
+    <div class="wrapper">
+        
+        
+        <form action="result">
+            
+            <h1>Tagging System</h1>
+            
+            <img src="{%static 'images/logo.png'%}" alt="Paris" class="center">
+            
+           
+            <div class="input-box">             
+                <input type="text" placeholder="TITLE" name="title" required><br>          
+            </div>
+            <div class="input-box0">               
+                <input type="text" placeholder="QUESTION" name="ques" required>
+            </div>
+            <button type="submit" class="btn btn1" >Generate Tags</button>
+           
+            
+        </form>
+    </div>
+</body>
+</html>
