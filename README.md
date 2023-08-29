@@ -41,8 +41,8 @@ The Tagging system is a web application that automatically assigns tags to stack
 <ol>
 <li>The user should provide the Title and body of the question in the landing page of the "Tagging System App" </li>
 <li>The title and the body of the question will undergo vector transformation before feeding the data to the trained model </li>
-<li>The App access already trained model in ```model.py``` as a pickle file inorder to make predictions </li>
-<li>The predicted tags will be a set of numeric arrays, this then undergo inverse transformations inorder to convert it as a ```string``` </li>
+<li>The App access already trained model in `model.py` as a pickle file inorder to make predictions </li>
+<li>The predicted tags will be a set of numeric arrays, this then undergo inverse transformations inorder to convert it as a `string` </li>
 <li>Then the predcited tags will be displayed in the web page which allows the users to copy and use it </li>
 </ol>
 <h3>Tech Stack Used </h3>
