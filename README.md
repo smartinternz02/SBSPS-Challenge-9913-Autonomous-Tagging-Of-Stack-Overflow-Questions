@@ -99,13 +99,23 @@ To access the Tagging System web app, follow the instructions below:
 
     git clone https://github.com/Rupa-Rd/SBSPS-Challenge-9913-Autonomous-Tagging-Of-Stack-Overflow-Questions.git
 
-<li> Find the folder A </li>
-<li> Click `Generate Tags` button </li>
-<li> Find the predicted tags in the next page </li>
-<li> Copy the tags for further use </li>
+<li> Navigate to the project directory </li>
+
+    cd auto_tagging
+    
+<li> Install the necessary modules </li>
+
+    pip install -r requirements.txt
+    
+<li> Run the app from the command line </li>
+
+    python manage.py runserver
+    
+<li> Launch the app </li>
+    Find the app in port 8000
 </ol>
 <h2>Confused? </h2>
-If you're confused in accessing the "Tagging System" web-app. Watch this video.
+If you're confused in accessing the "Tagging System" web-app . Watch this video.
 <ul><li>Click here to watch </li></ul>
 
 <br>
