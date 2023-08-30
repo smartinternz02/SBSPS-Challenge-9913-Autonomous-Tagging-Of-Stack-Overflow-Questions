@@ -17,8 +17,8 @@ The Tagging system is a web application that automatically assigns tags to stack
 <ul>
 <li> <b>Introduced Copy-to-Clipboard button</b></li>
     The copy to clipboard button is a small button that allows users to copy tags to the clipboard. This can be useful to copy tags from 'Tagging System' and include those tags while asking questions in Stack overflow website, so that the user can found solution easily
-<li> <b>Published a fully functioning web-app</b></li>
-    The Tagging System web-app is fully functioning and anyone can use it. This is the most important uniqueness of this app and we are planning to include more features in the future
+<!-- <li> <b>Published a fully functioning web-app</b></li>
+    The Tagging System web-app is fully functioning and anyone can use it. This is the most important uniqueness of this app and we are planning to include more features in the future -->
 </ul>
 <h2> App Screenshots </h2>
 <ul>
@@ -91,8 +91,15 @@ The Tagging system is a web application that automatically assigns tags to stack
 <h2>How to access the web app ? </h2>
 To access the Tagging System web app, follow the instructions below:
 <ol>
-<li> Click the Link in the right side of the repository or here </li>
-<li> Give Title and body of the question </li>
+<li> Ensure you have Python 3.x installed on your system </li>
+    ```bash
+    python --version
+    ```
+<li> Clone this repository </li>
+    ```bash
+    git clone https://github.com/Rupa-Rd/SBSPS-Challenge-9913-Autonomous-Tagging-Of-Stack-Overflow-Questions.git
+    ```
+<li> Find the folder A </li>
 <li> Click `Generate Tags` button </li>
 <li> Find the predicted tags in the next page </li>
 <li> Copy the tags for further use </li>
