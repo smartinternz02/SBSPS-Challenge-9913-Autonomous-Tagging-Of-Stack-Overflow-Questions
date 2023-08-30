@@ -17,9 +17,35 @@ The Tagging system is a web application that automatically assigns tags to stack
 <ul>
 <li> <b>Introduced Copy-to-Clipboard button</b></li>
     The copy to clipboard button is a small button that allows users to copy tags to the clipboard. This can be useful to copy tags from 'Tagging System' and include those tags while asking questions in Stack overflow website, so that the user can found solution easily
-<li> <b>Published a fully functioning web-app</b></li>
-    The Tagging System web-app is fully functioning and anyone can use it. This is the most important uniqueness of this app and we are planning to include more features in the future
+<!-- <li> <b>Published a fully functioning web-app</b></li>
+    The Tagging System web-app is fully functioning and anyone can use it. This is the most important uniqueness of this app and we are planning to include more features in the future -->
 </ul>
+<h2>How to access the web app ? </h2>
+To access the Tagging System web app, follow the instructions below:
+<ol>
+<li> Ensure you have Python 3.x installed on your system </li>
+    
+    python --version
+
+<li> Clone this repository </li>
+
+    git clone https://github.com/Rupa-Rd/SBSPS-Challenge-9913-Autonomous-Tagging-Of-Stack-Overflow-Questions.git
+
+<li> Navigate to the project directory </li>
+
+    cd auto_tagging
+    
+<li> Install the necessary modules </li>
+
+    pip install -r requirements.txt
+    
+<li> Run the app from the command line </li>
+
+    python manage.py runserver
+    
+<li> Launch the app </li>
+    Find the app in port 8000
+</ol>
 <h2> App Screenshots </h2>
 <ul>
 <li>Landing Page / Home Page </li>
@@ -81,24 +107,22 @@ The Tagging system is a web application that automatically assigns tags to stack
 <li> <b> IBM Watson Studio </b> </li>
     We have used IBM Watson to pre-process the Stack overflow dataset given to us. We used 'NLP module' in IBM Watson studio to remove the following :
     <ul>
-    <li> To remove punctuations (,.?/\:""''*&) </li>
+    <li> To remove punctuations (,.?/:""''*&) </li>
     <li> To remove stop words (a,an,not,..) </li>
     <li> To replace words (don't - donot, can't - cannot, ...) </li>
     <li> To drop the unwanted columns (Score, Date, Time) </li>
     <li> To check and replace the null values </li>
     </ul>
 </ul>
-<h2>How to access the web app ? </h2>
-To access the Tagging System web app, follow the instructions below:
+<h2> Advancement </h2>
 <ol>
-<li> Click the Link in the right side of the repository or here </li>
-<li> Give Title and body of the question </li>
-<li> Click `Generate Tags` button </li>
-<li> Find the predicted tags in the next page </li>
-<li> Copy the tags for further use </li>
+    <li>Preparing to deploy the app in the cloud </li>
+        Our app will be available to everyone, regardless of their location, by deploying it in the cloud
+    <li> Improving the predictability of the model </li>
+        The current model has a 60% prediction rate; with more data, it will be able to predict a larger number of tags with better accuracy
 </ol>
 <h2>Confused? </h2>
-If you're confused in accessing the "Tagging System" web-app. Watch this video.
+If you're confused in accessing the "Tagging System" web-app . Watch this video.
 <ul><li>Click here to watch </li></ul>
 
 <br>
