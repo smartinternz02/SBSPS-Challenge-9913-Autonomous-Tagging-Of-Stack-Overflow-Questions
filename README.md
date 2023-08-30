@@ -92,15 +92,13 @@ The Tagging system is a web application that automatically assigns tags to stack
 To access the Tagging System web app, follow the instructions below:
 <ol>
 <li> Ensure you have Python 3.x installed on your system </li>
-    ```
     
     python --version
-    ```
+
 <li> Clone this repository </li>
-    ```
-    
+
     git clone https://github.com/Rupa-Rd/SBSPS-Challenge-9913-Autonomous-Tagging-Of-Stack-Overflow-Questions.git
-    ```
+
 <li> Find the folder A </li>
 <li> Click `Generate Tags` button </li>
 <li> Find the predicted tags in the next page </li>
