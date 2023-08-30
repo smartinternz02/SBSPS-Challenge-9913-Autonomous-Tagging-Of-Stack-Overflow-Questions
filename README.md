@@ -93,10 +93,12 @@ To access the Tagging System web app, follow the instructions below:
 <ol>
 <li> Ensure you have Python 3.x installed on your system </li>
     ```bash
+    
     python --version
     ```
 <li> Clone this repository </li>
     ```bash
+    
     git clone https://github.com/Rupa-Rd/SBSPS-Challenge-9913-Autonomous-Tagging-Of-Stack-Overflow-Questions.git
     ```
 <li> Find the folder A </li>
