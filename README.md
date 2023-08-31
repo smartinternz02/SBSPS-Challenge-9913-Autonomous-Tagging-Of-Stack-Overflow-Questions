@@ -123,6 +123,7 @@ To access the Tagging System web app, follow the instructions below:
 </ol>
 <h2>Confused? </h2>
 If you're confused in accessing the "Tagging System" web-app . Watch this video.
+https://drive.google.com/file/d/13quGbU26y3NOZu0nghHuTwW80IEfZGPJ/view?usp=sharing
 <ul><li>Click here to watch </li></ul>
 
 <br>
