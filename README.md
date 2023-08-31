@@ -97,10 +97,7 @@ To access the Tagging System web app, follow the instructions below:
 <li> Django </li>
 <li> Python </li>
 </ul>
-<li> Deployment </li>
-<ul>
-<li> Python Anywhere </li>
-</ul>
+
 </ul>
 <h3> IBM Cloud Technology </h3>
 <ul>
